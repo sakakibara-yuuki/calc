@@ -8,7 +8,7 @@ double* mult(int m, int n, double* A, int k, int l, double* B){
     C=(double*)malloc(sizeof(double)*m*l);
 
     if(n != k){
-        printf("This operator is not defined");
+        printf("This operator is not defined.\n");
     }else
     {
 
